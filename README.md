@@ -4,9 +4,7 @@
 
 As demand for generative AI grows, so does its environmental cost. Training and serving generative AI models can be carbon-intensive, but these processes don't have to be environmentally costly. In this repo, we'll walk through how to **build a practical framework for low-emission generative AI deployment in the cloud**. With carbon awareness, developers can significantly reduce the environmental impact of AI models for a more **sustainable future in AI.**  
 
-The workflow integrates energy-aware data driven decisions from the [Electricity Maps API](https://www.electricitymaps.com/api) and scalable cloud services from [Google Cloud Platform (GCP)](https://cloud.google.com/) to help developers environmentally responsible, data driven decisions about where and when to run machine learning workloads. 
-
-By combining live carbon intensity metrics with tools like [BigQuery](https://cloud.google.com/bigquery), [Vertex AI](https://cloud.google.com/vertex-ai), and [Cloud Storage](https://cloud.google.com/storage), **developers can**:
+The workflow integrates real-time electricity grid data from the [Electricity Maps API](https://www.electricitymaps.com/api) and scalable cloud services from [Google Cloud Platform (GCP)](https://cloud.google.com/) to help developers make smarter, lower-emission decisions about where and when to run machine learning workloads. By combining live carbon intensity metrics with tools like [BigQuery](https://cloud.google.com/bigquery), [Vertex AI](https://cloud.google.com/vertex-ai), and [Cloud Storage](https://cloud.google.com/storage), **developers can**:
 
 - **Reduce Carbon Footprint**: Achieve up to 50-80% reduction in training emissions by selecting optimal regions and timing
 - **Maintain Performance**: No compromise on model quality or training speed
