@@ -1,8 +1,16 @@
-# Sustainable AI - Carbon Aware Computing
+# Sustainable AI: Carbon Aware Computing
 
 ## ⚙️ Project Overview
 
-As demand for generative AI grows, so does its environmental cost. Training and serving generative AI models can be carbon-intensive, but these processes don't have to be environmentally costly. In this repo, we'll walk through how to **build a practical framework for low-emission generative AI deployment in the cloud**. With carbon awareness, developers can significantly reduce the environmental impact of AI models for a more **sustainable future in AI.**  
+As demand for generative AI grows, so does its environmental cost. Training and serving generative AI models can be carbon-intensive, but these processes don't have to be environmentally costly. 
+
+In this repo, we'll walk through how to build a practical framework for low-emission generative AI deployment in the cloud. With carbon awareness, developers can significantly reduce the environmental impact of AI models for a more sustainable future in AI.  
+**This project’s carbon-aware workflow includes the following key steps:**
+
+- **Analyze Historical Emissions**: Query Google Cloud Platform's carbon footprint data using BigQuery to understand past emissions patterns across services, projects, and regions  
+- **Monitor Real-Time Carbon Intensity**: Access live electrical grid data via Electricity Maps API to identify the cleanest energy sources globally  
+- **Optimize Training Deployment**: Automatically select cloud regions with the lowest carbon footprint for ML model training using Google Cloud Vertex AI  
+- **Track Environmental Impact**: Measure and compare carbon savings across different deployment strategies
 
 The workflow integrates real-time electricity grid data from the [Electricity Maps API](https://www.electricitymaps.com/api) and scalable cloud services from [Google Cloud Platform (GCP)](https://cloud.google.com/) to help developers make smarter, lower-emission decisions about where and when to run machine learning workloads. By combining live carbon intensity metrics with tools like [BigQuery](https://cloud.google.com/bigquery), [Vertex AI](https://cloud.google.com/vertex-ai), and [Cloud Storage](https://cloud.google.com/storage), **developers can**:
 
@@ -23,7 +31,7 @@ The workflow integrates real-time electricity grid data from the [Electricity Ma
 | Supports real-time decision-making for energy-aware scheduling and infrastructure |
 | Global coverage with granularity down to individual grid zones in many regions |
 
-> #### 🛠️ Learn More
+> # 🛠️ Learn More
 > - [Electricity Maps Docs](https://www.electricitymaps.com/api)  
 > - [Electricity Maps API Reference](https://api.electricitymaps.com)  
 > - [API Quickstart Guide](https://www.electricitymaps.com/api#getting-started)  
@@ -49,7 +57,7 @@ The [Google Cloud Platform (GCP)](https://cloud.google.com/) is a comprehensive 
 > - [Google Cloud Free Tier Overview](https://cloud.google.com/free) 
 > - [Google Cloud Pricing Calculator](https://cloud.google.com/products/calculator)
 
-## ⚙️ Carbon Aware Workflow
+## ⚙️ Carbon Aware Workflows
 
 ### 1. Carbon Intensity Across Regions  
 [`explore_carbon_intensity.ipynb`](../explore_carbon_intensity.ipynb)  
@@ -145,4 +153,3 @@ This project is released under the MIT license.
 > ## 📌 Credits
 > 📦 This project builds on concepts and starter code introduced in the [Carbon Aware Computing for GenAI Developers](https://learn.deeplearning.ai/courses/carbon-aware-computing-for-genai-developers) course offered through [DeepLearning.AI](https://www.deeplearning.ai/short-courses/), in collaboration with [Google Cloud](https://cloud.google.com/) and taught by [Nikita Namjoshi](https://nikitanamjoshi.substack.com/), Developer Advocate at Google Cloud and Google Fellow on the Permafrost Discovery Gateway.  
 > While the original instructional materials provided foundational examples, this implementation has been customized and extended.
-
