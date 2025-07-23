@@ -10,3 +10,5 @@ google-cloud-bigquery
 google-auth
 jupyter
 notebook
+python-dotenv
+
